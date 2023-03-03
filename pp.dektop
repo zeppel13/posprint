@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Action
+Name=Thermo drucken
+Profiles=print
+
+[X-Action-Profile print]
+MimeTypes=image/*
+Exec=pp.py %F
